@@ -1,1 +1,4 @@
-print ("hola mundo")
+def prob_1 (n):
+	if n % 3 == 0
+		return True
+	else: False 
