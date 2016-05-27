@@ -1,5 +1,4 @@
-import proyecto
-opcion= int (input("Ingrese base"))
-opcion2= int (input ("Ingrese exponente"))
-print (proyecto.prob_3(opcion, opcion2))
-
+import proyecto1
+opcion= int (input("Ingrese su numero"))
+opcion2= input ("Ingrese su palabra")
+print (proyecto1.prob_4(opcion, opcion2))

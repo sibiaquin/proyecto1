@@ -8,4 +8,8 @@ def prob_2 (n):
 
 def prob_3 (n1, n2):
 	return n1**n2
-def prob_4 
+def prob_4 (n, palabra):
+	cas=(n-len(palabra))//2
+	cas2 = n - (cas + len(palabra))
+	return "*" * cas + palabra + "*" * cas2
+def prob_5 
